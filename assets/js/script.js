@@ -34,7 +34,7 @@ fetchApi();
 
 
 
-const saveId = window.location.href.slice(42, 999999);
+const saveId = window.location.href.slice(66, 999999);
 console.log(saveId);
 const detailsAll = document.querySelector(".details-all");
 const detailsData = () => {
