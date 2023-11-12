@@ -1,0 +1,13 @@
+.details-all{
+    background-color: rgb(13, 8, 41);
+    color: rgb(210, 210, 210) ;
+}
+.detsil-body{
+    color: aliceblue;
+}
+.btn-back{
+    background-color: rgb(37, 30, 77);
+}
+.btn-back:hover{
+    background-color: goldenrod;
+}

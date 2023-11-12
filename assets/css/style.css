@@ -2,6 +2,8 @@
     width: 100%;
     height: 100vh;
     background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat:no-repeat ;
 }
 .hero-bg .hero-bg-op{
     width: 100%;
@@ -9,5 +11,24 @@
     background-color: rgba(0,0,0,.5);
 }
 .hero-bg .hero-bg-op *:not(button){
+    color: #fff !important;
+}
+.navbar{
+    background-color: rgb(45, 36, 91);
+}
+.navbar-brand{
+    font-size: 50px;
+}
+.btn-watch{
+    background-color: rgb(45, 36, 91,0.9);  
+}
+.btn-watch:hover{
+    background-color: rgb(45, 36, 91);
+}
+.footer{
+    background-color: rgb(45, 36, 91);  
+  
+}
+.footer * {
     color: #fff !important;
 }
